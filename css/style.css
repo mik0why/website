@@ -1,6 +1,73 @@
-body{
-    
-    background : #0000FF;
+/* TODO explore more CSS attributes */
+ 
+body{ /* no classes, so accessed by tags */
+
+    background: #F4F4F4;
+    margin:0;
     
     
 }
+
+.container{
+    width: 750px ;
+    margin: 0 auto;
+    background: #FFF; 
+    
+}
+
+.header{ /* denotes a class */
+    padding: 45px 0 20px 40px; /* space around element (tblr) */
+    border: 2px solid black;
+    
+}
+
+.menu{
+    background: #3b7687;
+    padding: 6px 0 6px 40px;
+    
+}
+
+.menu a { /* addressing the tags individually */
+    color: #000000; /* c5d6db */
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial", "Myriad Pro"; /*second list. just in case*/    
+}
+
+.menu a:hover{
+    color: #ecf2f3;
+}
+
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px
+}
+
+h1{
+    margin: 0px;
+    color: #869241;
+    font-size: 30px;
+    font-family: "Times";
+    font-weight: normal;
+}
+
+
+h2{ /* can just predefine to be used in the future */
+    color: #ecf2f3;
+    font-size: 15px;
+    margin: 20px 0px 5px 0px;
+    
+}
+
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0px;
+    color: green;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 20px;
+    text-emphasis: justify;
+    
+}
+
