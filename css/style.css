@@ -1,4 +1,5 @@
 /* TODO explore more CSS attributes */
+/* zawsze sprawdzaj jaki tag/tagi określa dany parametr */
  
 body{ /* no classes, so accessed by tags */
 
@@ -7,6 +8,13 @@ body{ /* no classes, so accessed by tags */
     
     
 }
+
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+        color: black
+}
+
 
 .container{
     width: 750px ;
@@ -54,13 +62,13 @@ h1{
 
 
 h2{ /* can just predefine to be used in the future */
-    color: #ecf2f3;
+    color: blue;
     font-size: 15px;
     margin: 20px 0px 5px 0px;
     
 }
 
-.main{
+.main{ /*where is red? */
     margin: 0 0 0 180px;
     padding: 35px 40px 30px 0px;
     color: green;
@@ -68,6 +76,69 @@ h2{ /* can just predefine to be used in the future */
     font-size: 13px;
     line-height: 20px;
     text-emphasis: justify;
+    
+}
+
+.main a:hover{
+    color:red;
+    
+}
+
+#home-image img { /* pound to access by id */
+
+    width: 50%; /* how much space does it occupy */
+    
+}
+
+
+footer{
+    padding: 6px 40x 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: right;
+    
+    
+}
+
+footer a{ /*remember: dot in front only if a class */
+    text-decoration: none; 
+    color: #262626;
+    
+    
+}
+
+footer a:hover{
+    color:white;
+}
+
+.separator{ /* keep items close in the index close in the style */
+    color: red;
+    font-size: 10px;
+    
+}
+
+
+
+/********about us page **********/
+
+#about-page #home-image img { /* pound to access by id */
+
+    width: 70%; /* how much space does it occupy */
+    float: left;
+    margin-bottom: 20px;
+}
+
+#about-page #profile-info { /*first tag not necessary */
+    float: right;
+    width: 20%;
+    color: red;
+    font-family: cursive;
+}
+
+#about-page .description{ /*dot because class */
+    clear:both; 
     
 }
 
