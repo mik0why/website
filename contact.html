@@ -6,7 +6,7 @@
     <link rel = "stylesheet" href = "css/style.css">
     <script src="js/script.js"></script>
 </head>
-<body>
+<body id="contact-page">
     <div class = "container"> <!---div - container unit) --->
         <header class = "header">
             <a class = "link-title" href = "/">Minimalistic Website</a>
@@ -28,14 +28,50 @@
     <article class="main">
 <!---        <img src="http://placehold.it/550x250" alt="">    --->
        
-        <p>Welcome to the CONTACT page. More to come...</p>
+<!-- using paragraphs to put stuff one under another ---->       
+    <h1 class = "page-heading">Contact</h1>
+    <div id="form">
+       <form action="process.php"> <!--- where the data goes---->
+            <p>
+            <label for="name">Name: </label>
+            <input type="text" name="name" placeholder="Your Name">
+           </p>
+           <p>
+            <label for="name">Email:</label>
+            <input type="text" name="email">
+           </p>
+            
+            <p>
+            <label for="name">Subject: </label>
+            <input type="text" name="subject">
+           </p>   
+               
+            <p>   
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>  
+           </p>
+    
+            <p>
+                <input type="submit" name = "submit" value = "Send Message">
+            </p>
+                      
+                                
+        </form>
         
+        
+        
+        
+        
+    </div>
+        
+        
+    </div>
+                       
         
     </article>
     
     <footer>
        <!--- &copy: copyright symbol --->
-        &copy; 2030 Minimal Website &nbsp; Design by Miko <a href="http://www.github.com/mik0why"> github</a>
+        &copy; 2030 Minimalistic Website &nbsp; Design by Miko <a href="http://www.github.com/mik0why"> github</a>
         
         
     </footer>
