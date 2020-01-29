@@ -34,7 +34,7 @@
        <form action="process.php"> <!--- where the data goes---->
             <p>
             <label for="name">Name: </label>
-            <input type="text" name="name" placeholder="Your Name">
+            <input type="text" name="name">
            </p>
            <p>
             <label for="name">Email:</label>
@@ -47,11 +47,11 @@
            </p>   
                
             <p>   
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>  
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here"></textarea>  
            </p>
     
             <p>
-                <input type="submit" name = "submit" value = "Send Message">
+                <input id = "submit" type="submit" name = "submit" value = "Send Message">
             </p>
                       
                                 

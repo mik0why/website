@@ -29,17 +29,17 @@ body{
     width: 750px ;
     margin: 0 auto;
     background: #FFF; 
+        box-shadow: 2px 5px 5px 2px;
     
 }
 
 .header{ /* denotes a class */
     padding: 45px 0 20px 40px; /* space around element (trbl) */
-    border: 2px solid black;
     
 }
 
 .menu{
-    background: #3b7687;
+    background: #fb5e22;
     padding: 6px 0 6px 40px;
     
 }
@@ -48,7 +48,7 @@ body{
     color: #000000; /* c5d6db */
     text-decoration: none;
     font-size: 14px;
-    font-family: "Arial", "Myriad Pro"; /*second list. just in case*/    
+    font-family: "Verdana", "Arial", "Myriad Pro"; /*second list. just in case*/    
 }
 
 .menu a:hover{
@@ -63,7 +63,7 @@ aside{
 
 h1{
     margin: 0px;
-    color: #869241;
+    color: #1722a9;
     font-size: 30px;
     font-family: "Times";
     font-weight: normal;
@@ -83,7 +83,7 @@ h2{ /* can just predefine to be used in the future */
     color: green;
     font-family: "Georgia";
     font-size: 13px;
-    line-height: 30px;
+    line-height: 20px;
     text-emphasis: justify;
     
 }
@@ -156,28 +156,48 @@ footer a:hover{
 /*************contact page **************/
 
 #contact-page #form{ /*accessing DIV by id */
-    width: 500px;
-    border: 2px solid black;
+   width: 500px;
     padding: 10px 10px 10px 10px;
     margin: 0 auto;
+    box-shadow: 2px 0px 5px 3px;
+    color: #25252f;
+    border-radius: 7px;
         
 } 
 
-
+/* how to change space between each entry?*/
 #contact-page #form input{
     width: 100%;
     border-radius: 5px;
     height: 20px;
     background: gainsboro;
-    
+    padding: 2px 2px 2px 2px;
 }
 
 #contact-page #form #message{
-    width: 100%;
+    width: 100%;    
     border-radius: 5px;
     background: #d6d6d6;
     
     
 }
+
+#contact-page #form #submit{
+     height: 30px;
+    color: dimgrey;
+    background: azure;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
