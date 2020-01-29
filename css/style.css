@@ -7,7 +7,7 @@ jesli cos jest niewidoczne, pewnie jakis tag jest niezamkniety */
 
 body{
 
-    background: #F4F4F4;
+    background: white;
     margin:0;
     
     
@@ -72,16 +72,19 @@ h1{
 
 
 h2{ /* can just predefine to be used in the future */
-    color: blue;
+    color: #061249;
     font-size: 15px;
     margin: 20px 0px 5px 0px;
     
 }
 
+
+
 .main{ /*where is red? */
+    background-image: url("gory.jpg");
     margin: 0 0 0 180px;
     padding: 35px 40px 30px 0px;
-    color: green;
+    color: #061249;
     font-family: "Georgia";
     font-size: 13px;
     line-height: 20px;
@@ -89,15 +92,19 @@ h2{ /* can just predefine to be used in the future */
     
 }
 
+.main a:any-link{
+    text-decoration: none;
+}
+
 .main a:hover{
-    color:red;
+    color:blue;
+    text-decoration: none;
     
 }
 
 #home-image img { /* pound to access by id */
 
-    width: 50%; /* how much space does it occupy */
-    
+    width: 10%; /* how much space does it occupy */
 }
 
 
