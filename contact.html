@@ -27,7 +27,7 @@
 <!-- using paragraphs to put stuff one under another -->       
     <h1 class = "page-heading">Contact</h1>
     <div id="form">
-       <form method = "POST" action="process.php"> 
+       <form method = "post" action="process.php"> 
             <p>
             <label for="name">Name: </label>
             <input type="text" name="name" placeholder = "Your Name" required>
@@ -43,6 +43,7 @@
            </p>   
                
             <p>   
+            <label for="message">Message: </label>
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here" required></textarea>  
            </p>
     
