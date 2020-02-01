@@ -59,7 +59,7 @@ body{
 aside{
     float: left;
     width: 120px;
-    padding: 30px 0 0 40px
+    padding: 30px 0 0 40px;
 }
 
 h1{
@@ -110,8 +110,7 @@ h2{ /* can just predefine to be used in the future */
 
 footer{ /*how to make it full length? */
     padding: 6px 40px 6px 40px; /*TRBL */
-    background: #d6d6d6;''
-
+    background: #d6d6d6;
     font-family: "Lucida Sans Unicode";
     color: #444444;
     font-size: 13px;
@@ -130,7 +129,6 @@ footer a:hover{
     color:white;
 }
 
-*/
 
 .separator{ 
     color: red;
@@ -153,7 +151,6 @@ footer a:hover{
     float: right;
     width: 20%;
     color: red;
-    font-family: fantasy;
 }
 
 #about-page .description{ /*dot because DIV class */
