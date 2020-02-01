@@ -1,5 +1,6 @@
 <?php
 
+
     if(isset($_POST['submit'])){
         $to = "mikowhy72@gmail.com";
         $subject = $_POST['subject'];
@@ -13,9 +14,6 @@
         
         
     }
-
-
-
 
 
 ?>

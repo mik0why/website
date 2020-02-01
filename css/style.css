@@ -28,7 +28,7 @@ body{
 .container{
     width: 750px ;
     margin: 0 auto;
-    background: #FFF; 
+    background: #f0f0f0; 
         box-shadow: 2px 5px 5px 2px;
     
 }
@@ -82,8 +82,8 @@ h2{ /* can just predefine to be used in the future */
 
 .main{ /*where is red? */
     /*background-image: url("gory.jpg"); */
-    margin: 0 0 0 180px;
-    padding: 35px 40px 30px 0px;
+    margin: 0 0 0px 100px;
+    padding: 30px 100px 20px 0px;
     color: #061249;
     font-family: "Georgia";
     font-size: 13px;
