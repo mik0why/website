@@ -48,8 +48,8 @@ body{
 .menu a { /* addressing the tags individually */
     color: #000000; /* c5d6db */
     text-decoration: none;
-    font-size: 14px;
-    font-family: "Verdana", "Arial", "Myriad Pro"; /*second list. just in case*/    
+    font-size: 16px;
+    font-family:  "Arial", "Myriad Pro"; /*second list. just /*in case*/    
 }
 
 .menu a:hover{
