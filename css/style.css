@@ -49,7 +49,7 @@ body{
     color: #000000; /* c5d6db */
     text-decoration: none;
     font-size: 16px;
-    font-family:  "Georgia"; /*second list. just /*in case*/    
+    font-family:  "Arial Unicode MS"; /*second list. just /*in case*/    
 }
 
 .menu a:hover{
@@ -66,7 +66,7 @@ h1{
     margin: 0px;
     color: #1722a9;
     font-size: 30px;
-    font-family: "Georgia";
+    font-family: "Arial Unicode MS";
     font-weight: normal;
 }
 
@@ -85,7 +85,7 @@ h2{ /* can just predefine to be used in the future */
     margin: 0 0 0px 100px;
     padding: 30px 100px 20px 0px;
     color: #061249;
-    font-family: "Georgia";
+    font-family: "Arial Unicode MS";
     font-size: 13px;
     line-height: 20px;
     text-emphasis: justify;
