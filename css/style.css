@@ -25,12 +25,12 @@ body{
 }
 
 
-.container{
-    width: 750px ;
+.container {
+    width: 750px;
     margin: 0 auto;
-    background: #f0f0f0; 
-        box-shadow: 2px 5px 5px 2px;
-    
+    background: #f0f0f0;
+    box-shadow: 2px 5px 5px 2px;
+    border-radius: 10px;
 }
 
 .header{ /* denotes a class */
@@ -108,14 +108,14 @@ h2{ /* can just predefine to be used in the future */
 }
 
 
-footer{ /*how to make it full length? */
-    padding: 6px 40px 6px 40px; /*TRBL */
+footer {
+    padding: 6px 40px 6px 40px;
     background: #d6d6d6;
     font-family: "Lucida Sans Unicode";
     color: #444444;
     font-size: 13px;
     text-decoration: right;
-    
+    border-radius: 10px;
 }
 
 footer a{ /*remember: dot in front only if a class */
